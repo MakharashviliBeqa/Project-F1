@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+}
+
+.Logo{
+    width: 120px;
+    padding: 3px;
+    margin-top: -35px;
+    transition: filter 0.3s ease;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size:26px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
