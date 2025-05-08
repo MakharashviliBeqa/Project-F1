@@ -35,10 +35,6 @@ body, ul {
     font-family: "Play", sans-serif;
 }
 
-.nav li ul{
-    font-family: 'Roboto';
-}
-
 .Nav a:hover {
     color: Red;
 }
