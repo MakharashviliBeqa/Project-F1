@@ -38,3 +38,14 @@ body, ul {
 .Nav a:hover {
     color: Red;
 }
+
+.F1_cars{
+    width: 600px;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.Section{
+    margin: 12px;
+    font-family: "Play", sans-serif;
+}
