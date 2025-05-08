@@ -1,32 +1,37 @@
-.header{
+/* Reset default spacing */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make header a flex container */
+.Header {
     display: flex;
+    align-items: center; /* Vertically center logo and nav */
+    gap: 40px; /* Space between logo and nav */
+    padding: 10px 20px;
 }
 
-.Logo{
-    width: 120px;
-    padding: 3px;
-    margin-top: -35px;
-    transition: filter 0.3s ease;
-    height: 120px;
+/* Optional: fix logo height */
+.Logo {
+    height: 70px;
+    width: auto;
 }
 
-li, nav {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-header nav ul {
+/* Make the list horizontal */
+.Nav ul {
     display: flex;
-    gap: 20px;
     list-style: none;
-    font-size:26px;
+    gap: 20px;
 }
 
-a{
+/* Style links */
+.Nav a {
     text-decoration: none;
     color: black;
+    font-size: 25px;
 }
 
-.header{
-    background-color: Gray;
+.nav li ul{
+    font-family: 'Roboto';
 }
