@@ -41,7 +41,7 @@ body, ul {
 }
 
 .F1_cars{
-    width: 600px;
+    width: 550px;
     height: 50%;
     border-radius: 8px;
     float: left;
@@ -49,7 +49,7 @@ body, ul {
 }
 
 .Section{
-    margin-top: 12px;
-    margin-left: 135px;
+    margin-top: 30px;
+    margin-left: 100px;
     font-family: "Play", sans-serif;
 }
