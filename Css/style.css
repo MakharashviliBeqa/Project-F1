@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 25px;
-    font-family: "Play", sans-serif;
+    font-family: 'F1', sans-serif;
 }
 
 .Nav a:hover {
@@ -51,5 +51,9 @@ body {
 .Section{
     margin-top: 30px;
     margin-left: 100px;
-    font-family: "Play", sans-serif;
+    Font-family: sans-serif;
+}
+
+.Title{
+    font-family: F1-Bold;
 }

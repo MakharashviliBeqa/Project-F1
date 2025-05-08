@@ -1,4 +1,9 @@
-@font-face{
-    font-family: 'Play';
-    src: url('Fonts/Play/Play-Regular.ttf');
+@font-face {
+    font-family: 'F1';
+    src: url('../Fonts/Formula1/Formula1-Regular_web_0.ttf');
+}
+
+@font-face {
+    font-family: 'F1-Bold';
+    src: url('../Fonts/Formula1/Formula1-Bold_web_0.ttf');
 }
