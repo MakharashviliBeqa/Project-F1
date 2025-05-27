@@ -15,7 +15,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     margin: 12px;
-    height: 45px;
+    height: 2vw;
 }
 
 .Logo {
@@ -41,11 +41,10 @@ body {
 }
 
 .F1_cars{
-    width: 550px;
-    height: 50%;
+    width: 35%;
+    height: 35%;
     border-radius: 8px;
-    float: left;
-    margin-right: 20px;
+    margin-left: -20px;
 }
 
 .Section{
@@ -56,4 +55,10 @@ body {
 
 .Title{
     font-family: F1-Bold;
+}
+
+.About-content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }

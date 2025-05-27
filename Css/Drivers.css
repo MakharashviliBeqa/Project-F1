@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .Header {
@@ -17,7 +17,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     margin: 12px;
-    height: 45px;
+    height: 2vw;
 }
 
 .Logo {
@@ -46,7 +46,7 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 40px;
     padding: 40px 20px;
     box-sizing: border-box;
@@ -57,7 +57,10 @@ body {
 
 .Max,
 .Lando,
-.Oscar{
+.Oscar,
+.Leclerc,
+.Russel,
+.Antonelli{
     width: 273px;
     height: 273px;
     position: absolute;
@@ -67,10 +70,12 @@ body {
 
 .Max-Verstappen,
 .Oscar-Piastri,
-.Lando-Norris {
-    flex: 1 1 300px;
-    max-width: 440px;
-    min-width: 280px;
+.Lando-Norris,
+.George-Russell,
+.Charles-Leclerc,
+.Kimi-Antonelli {
+    flex: 0 0 calc((100% - 80px) / 3);
+    max-width: calc((100% - 80px) / 3);
     height: 460px;
     background-color: white;
     border-radius: 8px;
@@ -79,9 +84,13 @@ body {
     position: relative;
 }
 
+
 .N1,
 .N83,
-.N4{
+.N4,
+.N63,
+.N16,
+.N12{
     width: 96px;
     height: 96px;
     position: absolute;
