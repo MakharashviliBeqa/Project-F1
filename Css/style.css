@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -19,14 +19,14 @@ body {
 }
 
 .Logo {
-    height: 100px;
-    width: 100px;
+    height: 6vw;
+    width: 6vw;
 }
 
 .Nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 10%;
 }
 
 .Nav a {
@@ -44,12 +44,12 @@ body {
     width: 35%;
     height: 35%;
     border-radius: 8px;
-    margin-left: -20px;
+    margin-left: -1%;
 }
 
 .Section{
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 2%;
     Font-family: sans-serif;
 }
 
@@ -60,5 +60,5 @@ body {
 .About-content{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 2%;
 }

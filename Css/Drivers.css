@@ -5,11 +5,11 @@ body {
     overflow-x: hidden;
 }
 
-.Header {
+Header {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -21,14 +21,14 @@ body {
 }
 
 .Logo {
-    height: 100px;
-    width: 100px;
+    height: 6vw;
+    width: 6vw;
 }
 
 .Nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 10%;
 }
 
 .Nav a {
@@ -54,17 +54,18 @@ body {
     max-width: 1500px;
 }
 
-.Max,
-.Lando,
-.Oscar,
-.Leclerc,
-.Russel,
-.Antonelli{
-    width: 273px;
-    height: 273px;
+.Max-Pic,
+.Lando-Pic,
+.Oscar-Pic,
+.Leclerc-Pic,
+.Russel-Pic,
+.Antonelli-pic{
     position: absolute;
     bottom: 0;
-    left: 125px;
+    left: 30%;
+    width: 15vw;
+    height: auto;
+    object-fit: cover;
 }
 
 .Max-Verstappen,
@@ -73,9 +74,9 @@ body {
 .George-Russell,
 .Charles-Leclerc,
 .Kimi-Antonelli {
-    flex: 0 0 calc((100% - 80px) / 3);
-    max-width: calc((100% - 80px) / 3);
-    height: 460px;
+    flex: 0 0 calc((100% - 5vw) / 3);
+    max-width: calc((100% - 5vw) / 3);
+    height: 52vh;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,16 +84,15 @@ body {
     position: relative;
 }
 
-
 .N1,
 .N83,
 .N4,
 .N63,
 .N16,
 .N12{
-    width: 96px;
-    height: 96px;
+    width: 5vw;
+    height: 10vh;
     position: absolute;
     bottom: 4px;
-    padding-left: 20px;
+    padding-left: 4%;
 }
