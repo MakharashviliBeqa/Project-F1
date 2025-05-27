@@ -46,13 +46,12 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 40px;
     padding: 40px 20px;
     box-sizing: border-box;
     margin: 40px auto 0 auto;
     max-width: 1500px;
-    transform: translateX(79px);
 }
 
 .Max,
